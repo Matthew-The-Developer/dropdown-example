@@ -1,0 +1,29 @@
+:host {
+  height: inherit;
+  display: grid;
+  place-content: center center;
+  
+  .examples {
+    display: flex;
+    gap: 1rem;
+  }
+
+  mat-card {
+    min-height: 20rem;
+    min-width: 30rem;
+    background: inherit;
+  }
+
+  mat-radio-group {
+    display: flex;
+    flex-flow: column wrap;
+
+    .label {
+      color: rgba(0, 0, 0, 0.56);
+    }
+  }
+
+  mat-form-field {
+    width: 100%;
+  }
+}
